@@ -25,6 +25,7 @@ public class UserInterface {
             System.out.println("7. List all vehicles");
             System.out.println("8. Add a vehicle");
             System.out.println("9. Remove a vehicle");
+            System.out.println("10.Sell/Lease a vehicle");
             System.out.println("0. Quit");
 
             System.out.print("\nEnter your choice: ");
@@ -58,6 +59,8 @@ public class UserInterface {
                 case 9:
                     processRemoveVehicleRequest();
                     break;
+                case 10:
+                    //Update later
                 case 0:
                     System.out.println("Exiting...");
                     System.exit(0);
@@ -208,4 +211,8 @@ public class UserInterface {
             System.out.println("Vehicle with VIN " + vin + " not found.");
         }
     }
-}
+
+    public void processSellLeaseVehicleRequest(){
+        
+        }
+    }
